@@ -103,13 +103,13 @@ def main():
     preprocess = weights.transforms()
 
     # 指定儲存路徑
-    output_path = r'IP_Project\result'
+    output_path = r'ImageProcess\IP_Project\result'
     os.makedirs(output_path, exist_ok=True)
 
     # 指定圖片路徑
-    image_paths = [r"IP_Project\dataset\1-error_processing.jpg",
-                r"IP_Project\dataset\2-low_accuracy.jpg",
-                r"IP_Project\dataset\3-high_accuracy.jpg"]
+    image_paths = [r"ImageProcess\IP_Project\dataset\1-error_processing.jpg",
+                r"ImageProcess\IP_Project\dataset\2-low_accuracy.jpg",
+                r"ImageProcess\IP_Project\dataset\3-high_accuracy.jpg"]
     center_list = [(575, 305), (100, 100), (250, 385)]
     radius_list = [100, 40, 100]
 
